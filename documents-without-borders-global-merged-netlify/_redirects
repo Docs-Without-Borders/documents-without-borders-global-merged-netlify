@@ -1,0 +1,14 @@
+# Optional extension-free URLs. No SPA catch-all: missing pages return the real 404.
+/home         /             301
+/mission      /mission.html  200
+/initiatives  /initiatives.html 200
+/resources    /resources.html 200
+/conference   /conference.html 200
+/summit       /conference.html 200
+/founder      /about.html 200
+/about        /about.html 200
+/contact      /contact.html 200
+/notarizationship /notarizationship.html 200
+/global-dialogue /dialogue.html 200
+/dialogue /dialogue.html 200
+/explorer /explorer.html 200

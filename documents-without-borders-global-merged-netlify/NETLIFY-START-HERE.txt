@@ -1,0 +1,20 @@
+DOCUMENTS WITHOUT BORDERS GLOBAL — UNIFIED NETLIFY UPLOAD
+
+1. Unzip this package on your computer.
+2. Open the extracted folder and confirm index.html is at the root.
+3. Netlify > dwb-2 > Deploys > manually deploy the EXTRACTED folder (if Git linked and manual drop is unavailable, follow Netlify instructions to disconnect Git, or upload these files to the connected GitHub repository).
+4. No build command, npm, or dependency install needed.
+5. Preview: https://dwb-2.netlify.app
+6. Intended primary domain: https://documentswithoutborders.org (DNS/domain attachment NOT changed by this package).
+7. The official contact email is info@documentswithoutborders.org on all pages.
+8. The original international dialogue and roadmap are preserved in dialogue.html. Notarizationship™ has its own page with founder credit.
+9. Search page: explorer.html; dataset: assets/data/jurisdictions.json. Name index only, NOT an apostille status list.
+
+IMPORTANT: Public content on documentswithoutborders.org and dwb-2.netlify.app could not be fetched live. The merge is based on the source ZIP and available saved founding documents/original landing page. Existing functionality that lives only on the inaccessible .org website cannot be guaranteed copied. Export its source before replacing any existing domain deployment.
+
+BEFORE CONNECTING THE .ORG DOMAIN:
+- Confirm current .org pages/content are fully backed up; site and email DNS are separate.
+- Add the domain to the existing dwb-2 Netlify site via Domain management, following Netlify's displayed records. Do not overwrite MX, SPF, DKIM, or DMARC.
+- Confirm the official domain actually loads this merged site and HTTPS is working.
+- Canonical URLs and sitemap already point to .org, which is intended as the primary domain; do NOT create a netlify.app -> .org redirect before DNS and HTTPS work.
+- Review legal/privacy/entity claims. Site currently includes no forms/data collection or cookie tracking.

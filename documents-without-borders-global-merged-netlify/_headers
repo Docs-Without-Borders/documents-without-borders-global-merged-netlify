@@ -1,0 +1,14 @@
+# Common hardening headers. No CSP: the homepage contains inline JSON-LD.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# Revalidate CSS/JS shortly after publishing changes.
+/assets/css/*
+  Cache-Control: public, max-age=600, must-revalidate
+/assets/js/*
+  Cache-Control: public, max-age=600, must-revalidate
+/assets/images/*
+  Cache-Control: public, max-age=86400

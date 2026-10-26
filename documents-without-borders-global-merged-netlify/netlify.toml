@@ -1,0 +1,5 @@
+# Documents Without Borders Global | manual Netlify deployment
+# Upload/extract the folder with index.html at its top level.
+# This is a plain HTML/CSS/JavaScript site. No build command is needed.
+[build]
+  publish = "."
